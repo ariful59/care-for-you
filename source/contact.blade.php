@@ -1,36 +1,35 @@
 ---
 image: /assets/images/contact-bg.jpg
-title: Contact Me
-subtitle: Have questions? I have answers.
+title: যোগাযোগ
+subtitle: আপনার যদি কোন প্রশ্ন থাকে ??
 ---
 
 @extends('_layouts.page')
 
 @section('content')
-    <p>Static sites are unable to handle form submissions. However, there are third-party services, like <a href="https://formspree.io/" target="_blank">Formspree</a>, which can accept the form submission and email you the result.</p>
-    <p>To enable form submissions via Formspree, all you need to do is add your email address in <code>config.php</code>.</p>
+    <p>যদি কোন প্রশ্ন থাকে তবে সাচ্ছদে করে ফেলেন । আর কোন ভুল অথবা উপদেশ থাকলে সাথে সাথে আমাদের জানায়ে ধন্য করবেন </p>
     <form method="POST" action="https://formspree.io/{{ $page->email }}">
         <div class="control-group">
             <div class="form-group floating-label-form-group controls">
-                <label>Name</label>
-                <input type="text" class="form-control" placeholder="Name" name="name" id="name" required>
+                <label>নাম</label>
+                <input type="text" class="form-control" placeholder="নাম" name="name" id="name" required>
             </div>
         </div>
         <div class="control-group">
             <div class="form-group floating-label-form-group controls">
-                <label>Email Address</label>
-                <input type="email" class="form-control" placeholder="Email Address" name="email" id="email" required>
+                <label>ইমেইল ঠিকানা</label>
+                <input type="email" class="form-control" placeholder="ইমেইল ঠিকানা" name="email" id="email" required>
             </div>
         </div>
         <div class="control-group">
             <div class="form-group floating-label-form-group controls">
-                <label>Message</label>
-                <textarea rows="5" class="form-control" placeholder="Message" name="message" id="message" required></textarea>
+                <label>ম্যাসেজ</label>
+                <textarea rows="5" class="form-control" placeholder="ম্যাসেজ" name="message" id="message" required></textarea>
             </div>
         </div>
         <br>
         <div class="form-group">
-            <button type="submit" class="btn btn-primary">Send</button>
+            <button type="submit" class="btn btn-primary">পাঠিয়ে দিন</button>
         </div>
         <input type="text" name="_gotcha" style="display:none" />
     </form>

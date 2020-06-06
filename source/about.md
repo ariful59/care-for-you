@@ -1,14 +1,11 @@
 ---
 extends: _layouts.page
 image: /assets/images/about-bg.jpg
-title: About Me
-subtitle: This is what I do.
+title: সাইটের ইতিহাস
+subtitle: আমি কেন এই ওয়েবসাইটটি তৈরি করলাম
 section: content
 ---
 
+#ওয়েবসাইট তৈরিতে ব্যবহৃত টুলস
 
-This is where you can give a little more information about yourself or site. If you'd like to change the structure of this page, or to change this content, you can find the file at `source/about.blade.php`
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum officia dolorem accusantium veniam quae, possimus, temporibus explicabo magni voluptas. fugit natus deserunt atque veniam possimus earum harum itaque est!
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum officia dolorem accusantium veniam quae, possimus, temporibus explicabo magni voluptas. fugit natus deserunt atque veniam!
+এই ওয়েবসাইটি তৈরি করা হয়েছে স্ট্যাটিক সাইট জেনারেশন টুল Jigsaw দিয়ে। থিম হিসেবে ব্যবহার করা হয়েছে Startbootstrap এর Clean Blog থিমের উপর ভিত্তি করে তৈরি করা Jigsaw Clean Blog। অধিকাংশ ব্যাকগ্রাউন্ড ছবি নেয়া হয়েছে Unsplash থেকে। সার্চ ফাংশনালিটির জন্য ব্যবহার করা হয়েছে Fuse.js যোগাযোগ ফরমের জন্য ব্যবহার করা হয়েছে Formspree এছাড়া সাইটি বর্তমানে হোস্ট করা হয়েছে Netlify-এ। সাইটির সোর্স কোড পাওয়া যাবে গিটহাবে।

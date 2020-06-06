@@ -1,51 +1,26 @@
 ---
 extends: _layouts.post
 section: content
-title: Styles and Formatting
-subtitle: What some of the basic type styles will look like in this starter template
-excerpt: What some of the basic type styles will look like in this starter template
-date: 2019-01-20
+title: শিশুদের খেলার ছলে ব্যায়াম
+subtitle: শিশুদের খেলার ছলে ব্যায়াম
+excerpt: ব্যায়াম!!!
+date: ০৬/০৬/২০২০
 ---
 
-This starter template is based on the [Start Bootstrap Clean Blog](https://startbootstrap.com/template-overviews/clean-blog/) theme, which is built on top of  [Bootstrap 4](https://getbootstrap.com/), the world's most popular front-end component library.
+করোনাভাইরাসের সংক্রমণ মোকাবিলায় এখন সবাইকে বাড়িতে থাকতে হচ্ছে। এ অবস্থায় শিশুদের সময় কাটছে মুঠোফোনে, গ্যাজেটে, বই পড়ে, ছবি এঁকে কিংবা কার্টুন দেখে। স্কুল বন্ধ থাকায় এবং বাইরে বের হতে না পারায় সব ধরনের খেলাধুলা একদম বন্ধ। কিন্তু বিশ্ব স্বাস্থ্য সংস্থা সতর্ক করেছে, লকডাউনে ঘরবন্দী ও নিষ্ক্রিয় থাকায় শিশু-কিশোরদের স্থূলতার হার বাড়তে পারে। এই সমস্যা মোকাবিলায় এবং রোগ প্রতিরোধক্ষমতা বাড়াতে দরকার কায়িক পরিশ্রম। ঘরোয়া কিছু খেলাধুলায় সমস্যাটি এড়ানো যায়।
 
----
+১. টেবিল টেনিস: ঘরের বারান্দায় বা ডাইনিং টেবিলকে ব্যবহার করে সহজেই টেবিল টেনিসের কোর্ট বানিয়ে খেলা যেতে পারে। এক ঘণ্টা টেবিল টেনিস খেললে প্রায় ২০৪ ক্যালরি শক্তি ক্ষয় হয়।
 
-## Typography Styles
+২. দড়িলাফ: এটি খুব সহজ খেলা। খুব বেশি জায়গারও দরকার হয় না। মাত্র ১৫ মিনিট দড়িলাফে প্রায় ১১৯ ক্যালরি ক্ষয় হয়।
 
-Here’s a quick preview of what some of the basic type styles will look like in this starter template:
+৩. হসপস বা কুতকুত জাতীয় খেলা: ছোটবেলায় আমরা অনেকেই মাটিতে দাগ কেটে কুতকুত খেলতাম। বাসায় মেঝেতে দাগ দিয়ে বাচ্চাদের এ ধরনের খেলায় উৎসাহিত করা যেতে পারে। মাত্র ১৫ মিনিট খেলায় প্রায় ৬৮ ক্যালরি ক্ষয় হয়।
 
-# h1 Heading
-## h2 Heading
-### h3 Heading
-#### h4 Heading
-##### h5 Heading
-###### h6 Heading
+৪. বোলিং: বাড়িতে প্লাস্টিকের কাপ বা ওয়ান টাইম কাগজের গ্লাস দিয়ে খেলা যেতে পারে। একটির ওপর একটি কাপ সাজিয়ে দূর থেকে বল দিয়ে সাজানো কাপগুলো ফেলতে হবে। ঘরের লম্বা করিডোরে বোলিং খেলা যেতে পারে। প্রায় ৩০ মিনিট বোলিং খেলায় ১০৫ ক্যালরি ক্ষয় হয়।
 
-The quick brown fox jumps over the lazy dog
+৫. ট্যাব দ্য শেইপ: ঘরের মেঝেতে টেপ দিয়ে বা চক দিয়ে নানা ধরনের ঘর করতে হবে, যেমন ত্রিকোনা, চক্রাকার, বৃত্তাকার ইত্যাদি। এবার নির্দেশ অনুযায়ী দুই পায়ে লাফিয়ে বা এক পায়ে লাফ দিয়ে, কখনো বসে লাফ দিয়ে ভিন্ন ভিন্ন ঘরে যাবে। এই খেলায় বাচ্চারা নানা ধরনের আকৃতির নাম শিখবে এবং মজা পাবে।
 
-<s>The quick brown fox jumps over the lazy dog</s>
+৬. বেলুন ফোলানো: বাচ্চাদের ব্রিদিং এক্সারসাইজ করানো সহজ নয়। এ ক্ষেত্রে ফেলুন ফোলানো একটি ভালো শ্বাসপ্রশ্বাসের ব্যায়াম। এ ছাড়া ফোলানো বেলুন হাতের ওপর রেখে ভারসাম্যের অনুশীলন করাও হতে পারে আনন্দের খেলা।
 
-<u>The quick brown fox jumps over the lazy dog</u>
+৭. লুকোচুরি খেলা: ঘরে মা-বাবার সঙ্গেই লুকোচুরি খেলা জমে উঠতে পারে। এ খেলা শারীরিক পরিশ্রমের সঙ্গে সঙ্গে মস্তিষ্কের বিকাশে সাহায্য করে। মা-বাবার সঙ্গে কাটানো সময়ও আনন্দময় হয়ে ওঠে।
 
-_The quick brown fox jumps over the lazy dog_
-
-**The quick brown fox jumps over the lazy dog**
-
-`The quick brown fox jumps over the lazy dog`
-
-<small>The quick brown fox jumps over the lazy dog</small>
-
-> The quick brown fox jumps over the lazy dog
-
-[The quick brown fox jumps over the lazy dog](#)
-
-```php
-class Foo extends bar
-{
-    public function fooBar()
-    {
-        //
-    }
-}
-```
+৮. লাফানো: ঘরের মধ্যে লম্বা দাগ কেটে শিশুদের জাম্পিং বা লাফানোয় উৎসাহিত করা যেতে পারে। যেমন প্রতিবার লাফ দিয়ে কতটুকু দূরত্বে যেতে পারছে, সেভাবে মেপে লাইন টেনে শিশুকে আরও দূরত্ব অতিক্রমে উৎসাহিত করা।
