@@ -5,6 +5,10 @@ pagination:
 
 @extends('_layouts.page')
 
+@section('header-info')
+    <p class="index-meta">মোট টিউটোরিয়ালের সংখ্যা: {{ $page->translateNumber($posts->count()) }}</p>
+@endsection
+
 @section('content')
     @foreach ($pagination->items as $post)
         <div class="post-preview">
@@ -12,11 +16,13 @@ pagination:
                 <h2 class="post-title">
                     {{ $post->title }}
                 </h2>
-                <h3 class="post-subtitle">
-                    {{ $post->getExcerpt(125) }}
-                </h3>
+                <h4 class="post-subtitle">
+                    {{ $post->excerpt ?? "" }}
+                </h4>
             </a>
-            <p class="post-meta">Posted on {{ date('F jS, Y', $post->date) }}@if($post->showReadingTime) &bull; {{ $post->readingTime($post) }}@endif</p>
+            <p class="post-meta">
+                পোস্ট করা হয়েছে - {{ $page->banglaDate($post->date) }}
+            </p>
         </div>
         <hr>
     @endforeach

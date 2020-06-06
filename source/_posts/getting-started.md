@@ -3,7 +3,7 @@ extends: _layouts.post
 section: content
 title: সোনামণিদের খেলার হতে খড়ি
 date: ০৬/০৬/২০২০
-subtitle: ঝুমঝুমি দিয়ে সোনামণিদের খেলার শুরু
+subtitle: ঝুমঝুমি দিয়ে খেলা শুরু
 excerpt: ঝুমঝুমি দিয়ে সোনামণিদের খেলার শুরু
 ---
 

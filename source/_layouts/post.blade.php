@@ -13,7 +13,9 @@
                     <div class="post-heading">
                         <h1>{{ $page->title }}</h1>
                         <h2 class="subheading">{{ $page->subtitle }}</h2>
-                        <span class="meta">Posted on {{ date('F jS, Y', $page->date) }}@if($page->showReadingTime) &bull; {{ $page->readingTime($page) }}@endif</span>
+                        <span class="meta">
+                            পোস্ট করা হয়েছে - {{ $page->banglaDate($page->date) }}
+                        </span>
                     </div>
                 </div>
             </div>
@@ -32,7 +34,7 @@
                     @if ($page->getNext())
                         <p>
                             <strong>
-                                Next post: <a href="{{ $page->getNext()->getPath() }}">{{ $page->getNext()->title }}</a>
+                                পরের পোস্ট: <a href="{{ $page->getNext()->getPath() }}">{{ $page->getNext()->title }}</a>
                             </strong>
                         </p>
                     @endif
