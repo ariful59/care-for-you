@@ -16,7 +16,7 @@ As with all Jigsaw sites, configuration settings can be found in `config.php`; y
 ```php
 // config.php
 return [
-    'baseUrl' => 'https://my-awesome-jigsaw-site.com/',
+    'baseUrl' => 'https://little-star.netlify.com',
     'production' => false,
     'siteName' => 'My Site',
     'siteDescription' => 'Give your blog a boost with Jigsaw.',

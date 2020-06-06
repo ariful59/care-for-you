@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "20f5fbe3aac7c1c8c7f3289a2c2da614",
+    "content-hash": "42d7624d67a82b2cea1f9578416f28d8",
     "packages": [
         {
             "name": "doctrine/inflector",
@@ -1180,7 +1180,7 @@
                 },
                 {
                     "name": "Gert de Pagter",
-                    "email": "backendtea@gmail.com"
+                    "email": "BackEndTea@gmail.com"
                 }
             ],
             "description": "Symfony polyfill for ctype functions",
@@ -1742,20 +1742,21 @@
         },
         {
             "name": "tightenco/jigsaw",
-            "version": "v1.3.8",
+            "version": "v1.3.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tightenco/jigsaw.git",
-                "reference": "2096865666b583b890cc86a156ce92bcb87af5da"
+                "reference": "b782c667e5963ca913f241da173949a7fae74b1d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tightenco/jigsaw/zipball/2096865666b583b890cc86a156ce92bcb87af5da",
-                "reference": "2096865666b583b890cc86a156ce92bcb87af5da",
+                "url": "https://api.github.com/repos/tightenco/jigsaw/zipball/b782c667e5963ca913f241da173949a7fae74b1d",
+                "reference": "b782c667e5963ca913f241da173949a7fae74b1d",
                 "shasum": ""
             },
             "require": {
-                "erusev/parsedown-extra": "^0.7.1",
+                "erusev/parsedown": "^1.7",
+                "erusev/parsedown-extra": "^0.7",
                 "illuminate/container": "^5.8",
                 "illuminate/support": "^5.8",
                 "illuminate/view": "^5.8",
@@ -1793,6 +1794,10 @@
                 {
                     "name": "Adam Wathan",
                     "email": "adam.wathan@gmail.com"
+                },
+                {
+                    "name": "Keith Damiani",
+                    "email": "keith@tighten.co"
                 }
             ],
             "description": "Simple static sites with Laravel's Blade.",
@@ -1803,7 +1808,7 @@
                 "site",
                 "static"
             ],
-            "time": "2019-02-26T18:47:44+00:00"
+            "time": "2019-10-28T15:13:34+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -1865,5 +1870,6 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
 }

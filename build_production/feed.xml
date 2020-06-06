@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Grow your Little Star</title>
+    <link>https://little-star.netlify.com</link>
+    <description>Grow your little star by giving opportunity to learn creative games</description>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://little-star.netlify.com/feed.xml" type="application/rss+xml" rel="self"/>
+    <language>en-GB</language>
+    <copyright>Copyright © Grow your Little Star 2020</copyright>
+    <pubDate>Sat, 06 Jun 2020 12:01:54 +0000</pubDate>
+    <lastBuildDate>Sat, 06 Jun 2020 12:01:54 +0000</lastBuildDate>
+    <item>
+      <title><![CDATA[Getting Started]]></title>
+      <link>https://little-star.netlify.com/posts/getting-started</link>
+      <description><![CDATA[Getting started with the Jigsaw Clean Blog starter template]]></description>
+      <content:encoded><![CDATA[<p>This is a starter template for creating a beautiful, customizable blog with minimal effort. You’ll only have to change a few settings and you’re ready to go.</p>
+<h2>Configuration</h2>
+<p>As with all Jigsaw sites, configuration settings can be found in <code>config.php</code>; you can update the variables in that file with settings specific to your site. You can also add new configuration variables there to use across your site; take a look at the <a href="http://jigsaw.tighten.co/docs/site-variables/">Jigsaw documentation</a> to learn more.</p>
+<pre><code class="language-php">// config.php
+return [
+    'baseUrl' =&gt; 'https://my-awesome-jigsaw-site.com/',
+    'production' =&gt; false,
+    'siteName' =&gt; 'My Site',
+    'siteDescription' =&gt; 'Give your blog a boost with Jigsaw.',
+    ...
+];</code></pre>
+<blockquote>
+<p>Tip: This configuration file is also where you’ll define any &quot;collections&quot; (for example, a collection of the contributors to your site, or a collection of blog posts organized by topic). Check out the official <a href="https://jigsaw.tighten.co/docs/collections/">Jigsaw documentation</a> to learn more.</p>
+</blockquote>
+<hr />
+<h2>Adding Content</h2>
+<p>You can write your content using a <a href="http://jigsaw.tighten.co/docs/content-other-file-types/">variety of file types</a>. By default, this starter template expects your content to be located in the <code>source/_posts/</code> folder.</p>
+<p>The top of each content page contains a YAML header that specifies how it should be rendered. The <code>title</code> attribute is used to dynamically generate HTML <code>title</code> and OpenGraph tags for each page. The <code>extends</code> attribute defines which parent Blade layout this content file will render with (e.g. <code>_layouts.post</code> will render with <code>source/_layouts/post.blade.php</code>), and the <code>section</code> attribute defines the Blade &quot;section&quot; that expects this content to be placed into it.</p>
+<pre><code class="language-yaml">---
+extends: _layouts.post
+section: content
+title: Getting Started
+date: 2019-01-21
+description: Getting started with the Jigsaw blog starter template
+image: /assets/images/post-bg.jpg
+---</code></pre>
+<hr />
+<h2>Adding Assets</h2>
+<p>Any assets that need to be compiled (such as JavaScript, Less, or Sass files) can be added to the <code>source/_assets/</code> directory, and Laravel Mix will process them when running <code>yarn run local</code> or <code>yarn run production</code>. The processed assets will be stored in <code>/source/assets/build/</code> (note there is no underscore on this second <code>assets</code> directory).</p>
+<p>Then, when Jigsaw builds your site, the entire <code>/source/assets/</code> directory containing your built files (and any other directories containing static assets, such as images or fonts, that you choose to store there) will be copied to the destination build folders (<code>build_local</code>, on your local machine).</p>
+<p>Files that don't require processing (such as images and fonts) can be added directly to <code>/source/assets/</code>.</p>
+<p><a href="http://jigsaw.tighten.co/docs/compiling-assets/">Read more about compiling assets in Jigsaw using Laravel Mix.</a></p>
+<hr />
+<h2 id="getting-started-building-your-site">Building Your Site</h2>
+<p>Now that you’ve edited your configuration variables and know how to customize your styles and content, let’s build the site.</p>
+<pre><code class="language-bash"># build static files with Jigsaw
+./vendor/bin/jigsaw build
+
+# compile assets with Laravel Mix
+# options: dev, staging, production
+yarn run dev</code></pre>]]></content:encoded>
+      <guid>https://little-star.netlify.com/posts/getting-started</guid>
+      <pubDate>Mon, 21 Jan 2019 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Styles and Formatting]]></title>
+      <link>https://little-star.netlify.com/posts/styles-and-formatting</link>
+      <description><![CDATA[What some of the basic type styles will look like in this starter template]]></description>
+      <content:encoded><![CDATA[<p>This starter template is based on the <a href="https://startbootstrap.com/template-overviews/clean-blog/">Start Bootstrap Clean Blog</a> theme, which is built on top of  <a href="https://getbootstrap.com/">Bootstrap 4</a>, the world's most popular front-end component library.</p>
+<hr />
+<h2>Typography Styles</h2>
+<p>Here’s a quick preview of what some of the basic type styles will look like in this starter template:</p>
+<h1>h1 Heading</h1>
+<h2>h2 Heading</h2>
+<h3>h3 Heading</h3>
+<h4>h4 Heading</h4>
+<h5>h5 Heading</h5>
+<h6>h6 Heading</h6>
+<p>The quick brown fox jumps over the lazy dog</p>
+<p><s>The quick brown fox jumps over the lazy dog</s></p>
+<p><u>The quick brown fox jumps over the lazy dog</u></p>
+<p><em>The quick brown fox jumps over the lazy dog</em></p>
+<p><strong>The quick brown fox jumps over the lazy dog</strong></p>
+<p><code>The quick brown fox jumps over the lazy dog</code></p>
+<p><small>The quick brown fox jumps over the lazy dog</small></p>
+<blockquote>
+<p>The quick brown fox jumps over the lazy dog</p>
+</blockquote>
+<p><a href="#">The quick brown fox jumps over the lazy dog</a></p>
+<pre><code class="language-php">class Foo extends bar
+{
+    public function fooBar()
+    {
+        //
+    }
+}</code></pre>]]></content:encoded>
+      <guid>https://little-star.netlify.com/posts/styles-and-formatting</guid>
+      <pubDate>Sun, 20 Jan 2019 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[My First Blog Post]]></title>
+      <link>https://little-star.netlify.com/posts/my-first-blog-post</link>
+      <description><![CDATA[Where the fun begins 😎!]]></description>
+      <content:encoded><![CDATA[<p>This is the start of your first blog post.</p>]]></content:encoded>
+      <guid>https://little-star.netlify.com/posts/my-first-blog-post</guid>
+      <pubDate>Sun, 09 Sep 2018 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -20,10 +20,10 @@ return [
     'email' => '',
 
     // The name of the site. This is used in the nav and footer
-    'siteName' => 'Jigsaw Clean Blog',
+    'siteName' => 'Grow your Little Star',
 
     // The description of the site. This is used in for the site's default metadata
-    'siteDescription' => 'Starter template for a blog, using Jigsaw by Tighten, based on the Start Bootstrap Clean Blog theme',
+    'siteDescription' => 'Grow your little star by giving opportunity to learn creative games',
 
     // The name of the site Author. Your name! This is used when building the rss feed
     'siteAuthor' => '',
