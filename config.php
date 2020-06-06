@@ -12,7 +12,6 @@ return [
             'sort' => '-date'
         ]
     ],
-    'date => $page->date,
     
     // Number of collection items to show per page
     'perPage' => 5,
