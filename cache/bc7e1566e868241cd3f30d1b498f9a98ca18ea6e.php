@@ -1,4 +1,0 @@
-<?php $__env->startSection('content'); ?><p>This is where you can give a little more information about yourself or site. If you'd like to change the structure of this page, or to change this content, you can find the file at <code>source/about.blade.php</code></p>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum officia dolorem accusantium veniam quae, possimus, temporibus explicabo magni voluptas. fugit natus deserunt atque veniam possimus earum harum itaque est!</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum officia dolorem accusantium veniam quae, possimus, temporibus explicabo magni voluptas. fugit natus deserunt atque veniam!</p><?php $__env->stopSection(); ?>
-<?php echo $__env->make('_layouts.page', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>

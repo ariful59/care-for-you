@@ -1,72 +1,34 @@
 ---
 extends: _layouts.post
 section: content
-title: Getting Started
-date: 2019-01-21
-subtitle: Getting started with the Jigsaw Clean Blog starter template
-excerpt: Getting started with the Jigsaw Clean Blog starter template
+title: সোনামণিদের খেলার হতে খড়ি
+date: ০৬/০৬/২০২০
+subtitle: ঝুমঝুমি দিয়ে সোনামণিদের খেলার শুরু
+excerpt: ঝুমঝুমি দিয়ে সোনামণিদের খেলার শুরু
 ---
 
-This is a starter template for creating a beautiful, customizable blog with minimal effort. You’ll only have to change a few settings and you’re ready to go.
+ছোটবেলায় ঝুমঝুমি নিয়ে খেলাধুলা করেনি এমন লোক খুঁজে পাওয়া যাবে না। পরিবারের সদ্য ফোটা ফুলকলিটিকে আনন্দ দিতে সবাই নানা খেলনাসামগ্রী নিয়ে আসে। তার দোলনায় লাগানো থাকে নানা রকম রঙিন ফুল, খেলনা ইত্যাদি। কিন্তু এই বয়সী বাচ্চাদের জন্য আমরা বিশেষ করে ঝুমঝুমিকেই বেশি গুরুত্ব দিই। যার ঝুম ঝুম শব্দে ছোট খোকা-খুকুরা বেশ আনন্দ পায়।
 
-## Configuration
+কিন্তু নবজাতক শিশুকে ঝুমঝুমি দিয়ে আনন্দ দেওয়া কতটুকু যুক্তিযুক্ত? কারণ তার কর্কশ শব্দ বড়রাই সহ্য করতে পারে না, সেখানে ছোট বাবুদের অবস্থা কী?
 
-As with all Jigsaw sites, configuration settings can be found in `config.php`; you can update the variables in that file with settings specific to your site. You can also add new configuration variables there to use across your site; take a look at the [Jigsaw documentation](http://jigsaw.tighten.co/docs/site-variables/) to learn more.
+আবার এই ঝুমঝুমি খেলনাটি অনেকটা ঘণ্টার মতো, যা ব্যবহার করা মুসলমানদের জন্য নিষিদ্ধ। হজরত আবু হুরায়রা (রা.) থেকে বর্ণিত, রাসুলুল্লাহ (সা.) বলেছেন, ‘ঘণ্টা হলো শয়তানের বাঁশি।’ (মুসলিম, হাদিস : ৫৪৪১)
 
-```php
-// config.php
-return [
-    'baseUrl' => 'https://little-star.netlify.com',
-    'production' => false,
-    'siteName' => 'My Site',
-    'siteDescription' => 'Give your blog a boost with Jigsaw.',
-    ...
-];
-```
+একজন মুসলমান কখনো শয়তানকে খুশি করতে পারে না। আর তার আদরের সন্তানকে শয়তানের বাঁশি শুনিয়ে শয়তানি প্রভাবে প্রভাবিত করে গড়ে তুলতে পারে না।
 
-> Tip: This configuration file is also where you’ll define any "collections" (for example, a collection of the contributors to your site, or a collection of blog posts organized by topic). Check out the official [Jigsaw documentation](https://jigsaw.tighten.co/docs/collections/) to learn more.
+তা ছাড়া ঝুমঝুমি নামক এই খেলনাটিকে বলা যায় বাদ্যযন্ত্র খঞ্জনির বংশধর। একসময় বাংলাদেশেও এই বাদ্যযন্ত্রটির ব্যবহার ছিল। সাধারণত এগুলো দুই ধরনের হতো। একটি তামা বা কাঁসার তৈরি, দেখতে ছোট বাটির মতো। বাটিগুলোর নিচে ছোট ছিদ্র করে দড়ির হাতল দিয়ে আটকানো থাকত। আরেক ধরনের খঞ্জনি ছিল একটু বড় আকারের চাকতির মতো। যার চারপাশে ঝুমঝুমি লাগানো থাকত।
 
----
+প্রাচীন মিসরেও এই বাদ্যযন্ত্রটি শয়তানকে খুশি করার জন্য ব্যবহার করা হতো। তাদের ভাষায় এই যন্ত্রটিকে বলা হতো সিস্ট্রাম। তারা যন্ত্রটিকে দেবতাদের খঞ্জনিও বলত।
 
-## Adding Content
+র‌্যাটল (ঝুমঝুমি) সাপের বৈজ্ঞানিক নামের প্রথম অংশ লাতিন শব্দ Sistrurus এসেছে এই সিস্ট্রাম শব্দ থেকেই। মরু অঞ্চলের এই বিষধর সাপগুলোর লেজের অগ্রভাগের র‌্যাটলের শব্দ যেন সিস্ট্রামের ঝুমঝুম আওয়াজের প্রতিলিপি। এই সাপগুলোর র‌্যাটলগুলো ঘটিত হয় কিছু সংযুক্ত ক্যারাটিনের রিং দিয়ে। শত্রুকে সতর্ক করতে তারা যখন লেজ ওপরে তুলে নাড়ানো শুরু করে, তখন রিংগুলোর সংঘর্ষে ঝুমঝুম শব্দের তৈরি হয়। এই তথ্যগুলো দ্বারা বোঝা যায়, এই ঝুমঝুমির ইতিহাস বেশ পুরনো। এবং শুরুটা ছিল শয়তানের পূজা দিয়েই। তাই এ ধরনের খেলনা সন্তানদের না দেওয়াই ভালো।
 
-You can write your content using a [variety of file types](http://jigsaw.tighten.co/docs/content-other-file-types/). By default, this starter template expects your content to be located in the `source/_posts/` folder.
+এখানে এই কথা বলা উদ্দেশ্য নয় যে কোমলমতি শিশুদের কোনো খেলনাই দেওয়া যাবে না। হজরত আয়েশা (রা.)ও ছোটবেলায় খেলনা দিয়ে খেলেছেন। তাই বাচ্চাদের অবশ্যই খেলাধুলার সুযোগ দিতে হবে। খেলনা দিতে হবে। তবে এমন খেলনা দেওয়া যাবে না, যা শয়তানের চিহ্ন বহন করে।
 
-The top of each content page contains a YAML header that specifies how it should be rendered. The `title` attribute is used to dynamically generate HTML `title` and OpenGraph tags for each page. The `extends` attribute defines which parent Blade layout this content file will render with (e.g. `_layouts.post` will render with `source/_layouts/post.blade.php`), and the `section` attribute defines the Blade "section" that expects this content to be placed into it.
+তা ছাড়া যে বাচ্চাগুলো কথা বলার বয়সে উপনীত হয়েছে, তাদের জন্য এই ঝুমঝুমি ক্ষতিকর হতে পারে।
 
-```yaml
----
-extends: _layouts.post
-section: content
-title: Getting Started
-date: 2019-01-21
-description: Getting started with the Jigsaw blog starter template
-image: /assets/images/post-bg.jpg
----
-```
+একটি মার্কিন গবেষণায় দেখা গেছে, বাচ্চাদের কথা বলতে শেখানোর সময় যদি চারপাশে নানা ধরনের শব্দ হতে থাকে, তাহলে তা শিশুর মনোযোগের বেশির ভাগটাই কেড়ে নেয়।
 
----
-## Adding Assets
+গবেষণাটি করা হয় ২২ মাস থেকে ৩০ মাস বয়সী ১০৭ জন শিশুর ওপর। তিন ধরনের পরীক্ষার মাধ্যমে গবেষকরা এই সিদ্ধান্তে আসেন যে চারপাশের নানা শব্দ শিশুদের অমনোযোগী করে রাখে। ফলে তার শিখতে সমস্যা হয়।
 
-Any assets that need to be compiled (such as JavaScript, Less, or Sass files) can be added to the `source/_assets/` directory, and Laravel Mix will process them when running `yarn run local` or `yarn run production`. The processed assets will be stored in `/source/assets/build/` (note there is no underscore on this second `assets` directory).
+গবেষণায় বাচ্চাদের দুটি ভিন্ন ভিন্ন জায়গায় রেখে নতুন কোনো জিনিসের নাম শেখানো হয়, একটি জায়গা ছিল কোলাহলপূর্ণ, আরেকটি জায়গা ছিল সুনসান। দেখা যায়, কম শব্দপূর্ণ জায়গায় থাকার সময়ই শিশুরা নতুন জিনিসগুলোর নাম শিখতে পেরেছে।
 
-Then, when Jigsaw builds your site, the entire `/source/assets/` directory containing your built files (and any other directories containing static assets, such as images or fonts, that you choose to store there) will be copied to the destination build folders (`build_local`, on your local machine).
-
-Files that don't require processing (such as images and fonts) can be added directly to `/source/assets/`.
-
-[Read more about compiling assets in Jigsaw using Laravel Mix.](http://jigsaw.tighten.co/docs/compiling-assets/)
-
----
-
-## Building Your Site {#getting-started-building-your-site}
-
-Now that you’ve edited your configuration variables and know how to customize your styles and content, let’s build the site.
-
-```bash
-# build static files with Jigsaw
-./vendor/bin/jigsaw build
-
-# compile assets with Laravel Mix
-# options: dev, staging, production
-yarn run dev
-```
+গবেষক জেনি সাফরান বলেন, ‘চারপাশের কোনো শব্দ ছাড়া যদি বাচ্চারা নতুন কোনো জটিল শব্দ শেখে, তাহলে তাদের শব্দভাণ্ডার আরো সমৃদ্ধ হয়। কিন্তু যদি আশপাশে অনেক কোলাহল থাকে, তাহলে বাচ্চাদের জন্য মনোযোগ ধরে রাখা কঠিন হয়ে পড়ে।’ (টনিক) সুতরাং বাচ্চাদের ঝুমঝুমি দেওয়ার ক্ষেত্রে সাবধানতা অবলম্বন করা জরুরি

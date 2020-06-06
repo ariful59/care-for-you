@@ -20,10 +20,10 @@ return [
     'email' => '',
 
     // The name of the site. This is used in the nav and footer
-    'siteName' => 'Grow your Little Star',
+    'siteName' => 'সোনামণিদের খেলা ঘর',
 
     // The description of the site. This is used in for the site's default metadata
-    'siteDescription' => 'Grow your little star by giving opportunity to learn creative games',
+    'siteDescription' => 'আপনার ছোট সোনামণিদের খেলার মাধ্যমে বিচক্ষণ করে তুলুন',
 
     // The name of the site Author. Your name! This is used when building the rss feed
     'siteAuthor' => '',
@@ -37,10 +37,6 @@ return [
         'facebook' => [
             'link' => '#',
             'icon' => 'fab fa-facebook-f',
-        ],
-        'github' => [
-            'link' => '#',
-            'icon' => 'fab fa-github',
         ],
         'rss' => [
             'link' => '/feed.xml',
